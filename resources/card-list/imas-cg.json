@@ -1,62 +1,62 @@
 [
     {
-        "id": "A001",
+        "id": "IMCG001",
         "name": "Shibuya Rin",
         "rarity": "R",
         "costume": "Normal",
         "on_event": false
     },
     {
-        "id": "A002",
+        "id": "IMCG002",
         "name": "Shibuya Rin",
         "rarity": "SR",
         "costume": "New Generation Series",
         "on_event": false
     },
     {
-        "id": "A003",
+        "id": "IMCG003",
         "name": "Shibuya Rin",
         "rarity": "SSR",
         "costume": "Wonderful Magic Series",
         "on_event": true
     },
     {
-        "id": "A004",
+        "id": "IMCG004",
         "name": "Uzuki Shimamura",
         "rarity": "R",
         "costume": "Normal",
         "on_event": false
     },
     {
-        "id": "A005",
+        "id": "IMCG005",
         "name": "Uzuki Shimamura",
         "rarity": "SR",
         "costume": "New Generation Series",
         "on_event": false
     },
     {
-        "id": "A006",
+        "id": "IMCG006",
         "name": "Uzuki Shimamura",
         "rarity": "SSR",
         "costume": "Wonderful Magic Series",
         "on_event": true
     },
     {
-        "id": "A007",
+        "id": "IMCG007",
         "name": "Mio Honda",
         "rarity": "R",
         "costume": "Normal",
         "on_event": false
     },
     {
-        "id": "A008",
+        "id": "IMCG008",
         "name": "Mio Honda",
         "rarity": "SR",
         "costume": "New Generation Series",
         "on_event": true
     },
     {
-        "id": "A009",
+        "id": "IMCG009",
         "name": "Mio Honda",
         "rarity": "SSR",
         "costume": "Wonderful Magic Series",

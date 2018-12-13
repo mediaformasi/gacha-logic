@@ -1,0 +1,65 @@
+[
+    {
+        "id": "IMML001",
+        "name": "Fuka Toyokawa",
+        "rarity": "R",
+        "costume": "Normal",
+        "on_event": false
+    },
+    {
+        "id": "IMML002",
+        "name": "Fuka Toyokawa",
+        "rarity": "SR",
+        "costume": "Nurse",
+        "on_event": false
+    },
+    {
+        "id": "IMML003",
+        "name": "Fuka Toyokawa",
+        "rarity": "SSR",
+        "costume": "Real Idol Series",
+        "on_event": true
+    },
+    {
+        "id": "IMML004",
+        "name": "Rio Momose",
+        "rarity": "R",
+        "costume": "Normal",
+        "on_event": false
+    },
+    {
+        "id": "IMML005",
+        "name": "Rio Momose",
+        "rarity": "SR",
+        "costume": "Chef",
+        "on_event": false
+    },
+    {
+        "id": "IMML006",
+        "name": "Rio Momose",
+        "rarity": "SSR",
+        "costume": "Real Idol Series",
+        "on_event": true
+    },
+    {
+        "id": "IMML007",
+        "name": "Takane Shijou",
+        "rarity": "R",
+        "costume": "Normal",
+        "on_event": false
+    },
+    {
+        "id": "IMML008",
+        "name": "Takane Shijou",
+        "rarity": "SR",
+        "costume": "Pirate",
+        "on_event": true
+    },
+    {
+        "id": "IMML009",
+        "name": "Takane Shijou",
+        "rarity": "SSR",
+        "costume": "Real Idol Series",
+        "on_event": false
+    }
+]

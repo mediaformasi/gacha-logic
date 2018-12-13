@@ -1,0 +1,65 @@
+[
+    {
+        "id": "LLSP001",
+        "name": "Honoka Kousaka",
+        "rarity": "R",
+        "costume": "Normal",
+        "on_event": false
+    },
+    {
+        "id": "LLSP002",
+        "name": "Honoka Kousaka",
+        "rarity": "SR",
+        "costume": "Promo",
+        "on_event": true
+    },
+    {
+        "id": "LLSP003",
+        "name": "Honoka Kousaka",
+        "rarity": "SSR",
+        "costume": "Future Style",
+        "on_event": false
+    },
+    {
+        "id": "LLSP004",
+        "name": "Umi Sonoda",
+        "rarity": "R",
+        "costume": "Normal",
+        "on_event": false
+    },
+    {
+        "id": "LLSP005",
+        "name": "Umi Sonoda",
+        "rarity": "SR",
+        "costume": "Promo",
+        "on_event": false
+    },
+    {
+        "id": "LLSP006",
+        "name": "Umi Sonoda",
+        "rarity": "SSR",
+        "costume": "Wonderland",
+        "on_event": true
+    },
+    {
+        "id": "LLSP007",
+        "name": "Kotori Minami",
+        "rarity": "R",
+        "costume": "Normal",
+        "on_event": false
+    },
+    {
+        "id": "LLSP008",
+        "name": "Kotori Minami",
+        "rarity": "SR",
+        "costume": "Promo",
+        "on_event": false
+    },
+    {
+        "id": "LLSP009",
+        "name": "Kotori Minami",
+        "rarity": "SSR",
+        "costume": "Sky",
+        "on_event": true
+    }
+]
