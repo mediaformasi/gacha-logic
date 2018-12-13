@@ -23,10 +23,10 @@ function searchBasedWeight(card_data, r_rate, sr_rate, ssr_rate, event_rate, one
 
     // Karena settingan pertama kita adalah persen, kita kalikan 100 biar hitungannya
     // lebih kapitalis karena rentangnya terlalu besar.
-    this.r_rate = r_rate * 100;
-    this.sr_rate = sr_rate * 100;
-    this.ssr_rate = ssr_rate * 100;
-    this.event_rate = event_rate * 100;
+    this.r_rate *= 100;
+    this.sr_rate *= 100;
+    this.ssr_rate *= 100;
+    this.event_rate *= 100;
     
     // Nah kita tentukan range tiap rate.
     let R = r_rate;
