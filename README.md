@@ -56,6 +56,6 @@ LLSS009 | Sakurachi Riko | Love Live! Sunshine!! | SSR | China Dress Costume | T
 
 *Butuh kontributor untuk mengisi di /resources/card-list/, karena wawasan saya kurang luas di dunia per-idolan. Kalau bisa sekalian edit tablenya kalau nambahin idolnya yah. Untuk event terserah kalian.*
 
-*Untuk franchise lain yang ingin anda tambahkan, silahkan buat file JSON baru dengan settingan yang sama dengan file yang lain. Kemudian masuk ke connector.js dan tambahkan sendiri case untuk kode franchise baru. Kodenya **wajib 4 karakter saja**.*
+*Untuk franchise lain yang ingin anda tambahkan, silahkan buat file JSON baru dengan settingan yang sama dengan file yang lain. Kemudian masuk ke /resources/connector.js dan tambahkan sendiri case untuk kode franchise baru. Kodenya **wajib 4 karakter saja**.*
 
 *(C) 2018 - Lingkarya Media Formasi - Ikramullah Latif (skymunn)*
