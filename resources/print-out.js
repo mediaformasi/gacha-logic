@@ -18,7 +18,7 @@ const roll = settings.roll;
 let res = gachaEngine(card, r_rate, sr_rate, ssr_rate, event_rate, roll);
 
 // Menghias konsol menjadi cantik, eaaa.....
-let finalRes = new Array();
+let finalRes = [];
 for (let i = 0; i < res.length; i++) {
     var resName = chalk.default.redBright(res[i].name);
     var resRarity = chalk.default.greenBright(res[i].rarity);

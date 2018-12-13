@@ -53,7 +53,7 @@ function loadJSON(startPath, filter) {
     // Mencari filenya untuk dimasukkan kedalam daftar file, dengan catatan
     // apabila ada folder lagi di dalamnya, maka wajib masuk kedalamnya lagi
     // sehingga ini mirip dengan tree.
-    var fileList = new Array();
+    var fileList = [];
     var files = fs.readdirSync(startPath);
     for (var i = 0; i < files.length; i++) {
         var filename = path.join(startPath, files[i]);
@@ -68,7 +68,7 @@ function loadJSON(startPath, filter) {
 
     // Menggunakan fungsi require tiap file JSON yang berhasil dibaca diatas tadi
     // untuk mengambil semua datanya tanpa terkecuali.
-    let allJSONFile = new Array();
+    let allJSONFile = [];
     for (let i = 0; i < fileList.length; i++) {
         let callJSON = require(fileList[i]).slice(0);
         for (let i2 = 0; i2 < callJSON.length; i2++) {

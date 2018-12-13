@@ -19,7 +19,7 @@ function searchBasedWeight(card_data, r_rate, sr_rate, ssr_rate, event_rate, one
 
     // Mencari rentang rate
     let weight = r_rate + sr_rate + ssr_rate + event_rate;
-    let getItem = new Array();
+    let getItem = [];
 
     // Karena settingan pertama kita adalah persen, kita kalikan 100 biar hitungannya
     // lebih kapitalis karena rentangnya terlalu besar.
@@ -86,7 +86,7 @@ function searchBasedWeight(card_data, r_rate, sr_rate, ssr_rate, event_rate, one
     // Lihat pembahasan sebelumnya tentang bot shitposter di twitter. Logikanya mirip, 
     // cuma karena himpunannya masih semu maka kita menggunakan WHILE loop.
     // https://mediaformasi.com/2018/12/fokus-mengungkap-rahasia-salah-satu-bot-shitposter-di-twitter/
-    let shuffledArray = new Array()
+    let shuffledArray = [];
     let stop = false;
     while (stop === false) {
         if (getItem.length < 1) stop = true;
