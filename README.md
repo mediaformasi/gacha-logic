@@ -1,5 +1,5 @@
 # gacha-logic
-Penerapan Weighted PRNG dengan studi kasus yakni Japanese Style Gacha. Untuk test, cukup ketik `node index` saja. Untuk versi simpel silahkan kembali ke website Media Formasi tadi, soalnya versi dalam GitHub ini adalah versi Semi-Complex.
+Penerapan Weighted PRNG dengan studi kasus yakni Japanese Style Gacha. Untuk test, cukup ketik `node index` saja. Untuk versi simpel silahkan menuju ke branch simple-version.
 
 ## Setting
 Lokasi setting ada bersama dengan README ini.
