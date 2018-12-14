@@ -25,7 +25,8 @@ for (let i = 0; i < res.length; i++) {
     var resCostume = res[i].costume;
     var resID = res[i].id;
     var resFranchise = chalk.default.blueBright(res[i].franchise);
-    finalRes.push(`${pad(i + 1)}. You\'ve got ${resName} (${resRarity}) [${resFranchise}] [${resCostume} Costume] ID:${resID}`);
+    var resEvent = res[i].on_event === true ? chalk.default.bgBlue("EVENT CARD") : chalk.default.magentaBright("NORMAL CARD");
+    finalRes.push(`${pad(i + 1)}. You\'ve got ${resName} (${resRarity}) [${resFranchise}] [${resEvent}] [${resCostume} Costume] ID:${resID}`);
 }
 
 module.exports = finalRes.join("\n");
