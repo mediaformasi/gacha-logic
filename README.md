@@ -2,7 +2,7 @@
 Penerapan Weighted PRNG dengan studi kasus yakni Japanese Style Gacha. Untuk test, cukup ketik `node index` saja. Ini adalah versi simple dari branch master di repository ini.
 
 ## Card Table
-Card Table dalam projcet ini berada bersama dengan Readme ini. Sementara ini, list kartunya adalah:
+Card Table dalam project ini berada bersama dengan Readme ini. Sementara ini, list kartunya adalah:
 
 ID | Nama Idol | Franchise | Rarity | Costume | Event (Boolean)
 -- | --------- | --------- | ------ | ------- | ---------------
