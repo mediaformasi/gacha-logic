@@ -13,7 +13,7 @@ event_rate | Float | Rate Rarity (EVENT Card) dalam persentase | "event_rate": 2
 roll | Boolean | Tulis `true` apabila ingin roll sebanyak 10x. Tulis `false` apabila ingin roll sebanyak 1x. | "roll": true
 
 ## Card Table
-Card Table dalam projcet ini berada di `/resources/card-list/`. Sementara ini, list kartunya adalah:
+Card Table dalam project ini berada di `/resources/card-list/`. Sementara ini, list kartunya adalah:
 
 ID | Nama Idol | Franchise | Rarity | Costume | Event (Boolean)
 -- | --------- | --------- | ------ | ------- | ---------------
