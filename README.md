@@ -1,19 +1,8 @@
 # gacha-logic
-Penerapan Weighted PRNG dengan studi kasus yakni Japanese Style Gacha. Untuk test, cukup ketik `node index` saja. Untuk versi simpel silahkan kembali ke website Media Formasi tadi, soalnya versi dalam GitHub ini adalah versi Semi-Complex.
-
-## Setting
-Lokasi setting ada bersama dengan README ini.
-
-Variable | Tipe Data | Deskripsi | Contoh
--------- | --------- | --------- | ------
-r_rate | Float | Rate Rarity (Rare) dalam persentase | "r_rate": 90
-sr_rate | Float | Rate Rarity (S Rare) dalam persentase | "sr_rate": 8.1
-ssr_rate | Float | Rate Rarity (SS Rate) dalam persentase | "ssr_rate": 1.9
-event_rate | Float | Rate Rarity (EVENT Card) dalam persentase | "event_rate": 2.5
-roll | Boolean | Tulis `true` apabila ingin roll sebanyak 10x. Tulis `false` apabila ingin roll sebanyak 1x. | "roll": true
+Penerapan Weighted PRNG dengan studi kasus yakni Japanese Style Gacha. Untuk test, cukup ketik `node index` saja. Ini adalah versi simple dari branch master di repository ini.
 
 ## Card Table
-Card Table dalam projcet ini berada di `/resources/card-list/`. Sementara ini, list kartunya adalah:
+Card Table dalam projcet ini berada bersama dengan Readme ini. Sementara ini, list kartunya adalah:
 
 ID | Nama Idol | Franchise | Rarity | Costume | Event (Boolean)
 -- | --------- | --------- | ------ | ------- | ---------------
@@ -54,8 +43,6 @@ LLSS007 | Sakurachi Riko | Love Live! Sunshine!! | R | Normal Costume | False
 LLSS008 | Sakurachi Riko | Love Live! Sunshine!! | SR | Promo Costume | False
 LLSS009 | Sakurachi Riko | Love Live! Sunshine!! | SSR | China Dress Costume | True
 
-*Butuh kontributor untuk mengisi di /resources/card-list/, karena wawasan saya kurang luas di dunia per-idolan. Kalau bisa sekalian edit tablenya kalau nambahin idolnya yah. Untuk event terserah kalian.*
-
-*Untuk franchise lain yang ingin anda tambahkan, silahkan buat file JSON baru dengan settingan yang sama dengan file yang lain. Kemudian masuk ke /resources/connector.js dan tambahkan sendiri case untuk kode franchise baru. Kodenya **wajib 4 karakter saja**.*
+*Butuh kontributor untuk mengisi di dalam file JSONnya, karena wawasan saya kurang luas di dunia per-idolan. Kalau bisa sekalian edit tablenya kalau nambahin idolnya yah. Untuk event terserah kalian.*
 
 *(C) 2018 - Lingkarya Media Formasi - Ikramullah Latif (skymunn)*

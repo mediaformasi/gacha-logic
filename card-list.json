@@ -1,0 +1,254 @@
+[
+    {
+        "id": "IMCG001",
+        "name": "Shibuya Rin",
+        "rarity": "R",
+        "costume": "Normal",
+        "on_event": false
+    },
+    {
+        "id": "IMCG002",
+        "name": "Shibuya Rin",
+        "rarity": "SR",
+        "costume": "New Generation Series",
+        "on_event": false
+    },
+    {
+        "id": "IMCG003",
+        "name": "Shibuya Rin",
+        "rarity": "SSR",
+        "costume": "Wonderful Magic Series",
+        "on_event": true
+    },
+    {
+        "id": "IMCG004",
+        "name": "Uzuki Shimamura",
+        "rarity": "R",
+        "costume": "Normal",
+        "on_event": false
+    },
+    {
+        "id": "IMCG005",
+        "name": "Uzuki Shimamura",
+        "rarity": "SR",
+        "costume": "New Generation Series",
+        "on_event": false
+    },
+    {
+        "id": "IMCG006",
+        "name": "Uzuki Shimamura",
+        "rarity": "SSR",
+        "costume": "Wonderful Magic Series",
+        "on_event": true
+    },
+    {
+        "id": "IMCG007",
+        "name": "Mio Honda",
+        "rarity": "R",
+        "costume": "Normal",
+        "on_event": false
+    },
+    {
+        "id": "IMCG008",
+        "name": "Mio Honda",
+        "rarity": "SR",
+        "costume": "New Generation Series",
+        "on_event": true
+    },
+    {
+        "id": "IMCG009",
+        "name": "Mio Honda",
+        "rarity": "SSR",
+        "costume": "Wonderful Magic Series",
+        "on_event": false
+    },
+    {
+        "id": "IMML001",
+        "name": "Fuka Toyokawa",
+        "rarity": "R",
+        "costume": "Normal",
+        "on_event": false
+    },
+    {
+        "id": "IMML002",
+        "name": "Fuka Toyokawa",
+        "rarity": "SR",
+        "costume": "Nurse",
+        "on_event": false
+    },
+    {
+        "id": "IMML003",
+        "name": "Fuka Toyokawa",
+        "rarity": "SSR",
+        "costume": "Real Idol Series",
+        "on_event": true
+    },
+    {
+        "id": "IMML004",
+        "name": "Rio Momose",
+        "rarity": "R",
+        "costume": "Normal",
+        "on_event": false
+    },
+    {
+        "id": "IMML005",
+        "name": "Rio Momose",
+        "rarity": "SR",
+        "costume": "Chef",
+        "on_event": false
+    },
+    {
+        "id": "IMML006",
+        "name": "Rio Momose",
+        "rarity": "SSR",
+        "costume": "Real Idol Series",
+        "on_event": true
+    },
+    {
+        "id": "IMML007",
+        "name": "Takane Shijou",
+        "rarity": "R",
+        "costume": "Normal",
+        "on_event": false
+    },
+    {
+        "id": "IMML008",
+        "name": "Takane Shijou",
+        "rarity": "SR",
+        "costume": "Pirate",
+        "on_event": true
+    },
+    {
+        "id": "IMML009",
+        "name": "Takane Shijou",
+        "rarity": "SSR",
+        "costume": "Real Idol Series",
+        "on_event": false
+    },
+    {
+        "id": "LLSP001",
+        "name": "Honoka Kousaka",
+        "rarity": "R",
+        "costume": "Normal",
+        "on_event": false
+    },
+    {
+        "id": "LLSP002",
+        "name": "Honoka Kousaka",
+        "rarity": "SR",
+        "costume": "Promo",
+        "on_event": true
+    },
+    {
+        "id": "LLSP003",
+        "name": "Honoka Kousaka",
+        "rarity": "SSR",
+        "costume": "Future Style",
+        "on_event": false
+    },
+    {
+        "id": "LLSP004",
+        "name": "Umi Sonoda",
+        "rarity": "R",
+        "costume": "Normal",
+        "on_event": false
+    },
+    {
+        "id": "LLSP005",
+        "name": "Umi Sonoda",
+        "rarity": "SR",
+        "costume": "Promo",
+        "on_event": false
+    },
+    {
+        "id": "LLSP006",
+        "name": "Umi Sonoda",
+        "rarity": "SSR",
+        "costume": "Wonderland",
+        "on_event": true
+    },
+    {
+        "id": "LLSP007",
+        "name": "Kotori Minami",
+        "rarity": "R",
+        "costume": "Normal",
+        "on_event": false
+    },
+    {
+        "id": "LLSP008",
+        "name": "Kotori Minami",
+        "rarity": "SR",
+        "costume": "Promo",
+        "on_event": false
+    },
+    {
+        "id": "LLSP009",
+        "name": "Kotori Minami",
+        "rarity": "SSR",
+        "costume": "Sky",
+        "on_event": true
+    },
+    {
+        "id": "LLSS001",
+        "name": "Tsushima Yoshiko",
+        "rarity": "R",
+        "costume": "Normal",
+        "on_event": false
+    },
+    {
+        "id": "LLSS002",
+        "name": "Tsushima Yoshiko",
+        "rarity": "SR",
+        "costume": "Halloween",
+        "on_event": true
+    },
+    {
+        "id": "LLSS003",
+        "name": "Tsushima Yoshiko",
+        "rarity": "SSR",
+        "costume": "Punk Rock Style",
+        "on_event": false
+    },
+    {
+        "id": "LLSS004",
+        "name": "Watanabe You",
+        "rarity": "R",
+        "costume": "Normal",
+        "on_event": false
+    },
+    {
+        "id": "LLSS005",
+        "name": "Watanabe You",
+        "rarity": "SR",
+        "costume": "Wedding",
+        "on_event": false
+    },
+    {
+        "id": "LLSS006",
+        "name": "Watanabe You",
+        "rarity": "SSR",
+        "costume": "Wonderful Stories",
+        "on_event": true
+    },
+    {
+        "id": "LLSS007",
+        "name": "Sakurachi Riko",
+        "rarity": "R",
+        "costume": "Normal",
+        "on_event": false
+    },
+    {
+        "id": "LLSS008",
+        "name": "Sakurachi Riko",
+        "rarity": "SR",
+        "costume": "Promo",
+        "on_event": false
+    },
+    {
+        "id": "LLSS009",
+        "name": "Sakurachi Riko",
+        "rarity": "SSR",
+        "costume": "China Dress",
+        "on_event": true
+    }
+]
