@@ -12,28 +12,27 @@
 function searchBasedWeight(card_data, r_rate, sr_rate, ssr_rate, event_rate, one_or_ten) {
 
     // Logika dasarnya begini:
-    // Pertama, jumlahkan semua rate untuk membuat rentang rate.
-    // Kedua, cari range untuk tiap rate, caranya ya rate_sebelumnya + rate_yang_dikerja.
+    // Pertama, cari range untuk tiap rate, caranya ya rate_sebelumnya + rate_yang_dikerja.
+    // Kedua, jumlahkan semua rate untuk membuat rentang rate.
     // Ketiga, kita acak angkanya berdasarkan rentang ratenya.
     // Keempat, setelah diacak, cocokkan dengan rentang ratenya.
-
-    // Mencari rentang rate
-    let weight = r_rate + sr_rate + ssr_rate + event_rate;
-    let getItem = [];
-
+    
     // Karena settingan pertama kita adalah persen, kita kalikan 100 biar hitungannya
     // lebih kapitalis karena rentangnya terlalu besar.
     this.r_rate *= 100;
     this.sr_rate *= 100;
     this.ssr_rate *= 100;
     this.event_rate *= 100;
+
+    // Mencari rentang rate
+    let weight = r_rate + sr_rate + ssr_rate + event_rate;
     
     // Nah kita tentukan range tiap rate.
     let R = r_rate;
     let SR = R + sr_rate;
     let SSR = SR + ssr_rate;
     let EVENT = SSR + event_rate;
-
+    
     // Beberapa fungsi yang mungkin akan berguna.
     // Pintasan untuk mengacak angka dari panjang resources.
     const reloadNumber = (length) => Math.floor(Math.random() * length);
@@ -41,6 +40,9 @@ function searchBasedWeight(card_data, r_rate, sr_rate, ssr_rate, event_rate, one
     const whenEvent = () => card_data.filter(o => o.on_event === true);
     // Pintasan untuk mencari kartu sesuai tingkat Rarenya.
     const whenRarity = (symbol_rarity) => card_data.filter(o => o.rarity === symbol_rarity);
+    
+    // Menyiapkan penampung untuk data-data.
+    let getItem = [];
 
     /**
      * Mengacak kartu berdasarkan logika weighted tadi. Untuk variabelnya,
