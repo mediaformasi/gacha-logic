@@ -28,8 +28,8 @@ const event_rate = 2.5;
 function searchBasedWeight(card_data, r_rate, sr_rate, ssr_rate, event_rate, one_or_ten) {
 
     // Logika dasarnya begini:
-    // Pertama, jumlahkan semua rate untuk membuat rentang rate.
-    // Kedua, cari range untuk tiap rate, caranya ya rate_sebelumnya + rate_yang_dikerja.
+    // Pertama, cari range untuk tiap rate, caranya ya rate_sebelumnya + rate_yang_dikerja.
+    // Kedua, jumlahkan semua rate untuk membuat rentang rate.
     // Ketiga, kita acak angkanya berdasarkan rentang ratenya.
     // Keempat, setelah diacak, cocokkan dengan rentang ratenya.
     
