@@ -32,11 +32,7 @@ function searchBasedWeight(card_data, r_rate, sr_rate, ssr_rate, event_rate, one
     // Kedua, cari range untuk tiap rate, caranya ya rate_sebelumnya + rate_yang_dikerja.
     // Ketiga, kita acak angkanya berdasarkan rentang ratenya.
     // Keempat, setelah diacak, cocokkan dengan rentang ratenya.
-
-    // Mencari rentang rate
-    let weight = r_rate + sr_rate + ssr_rate + event_rate;
-    let getItem = [];
-
+    
     // Karena settingan pertama kita adalah persen, kita kalikan 100 biar hitungannya
     // lebih kapitalis karena rentangnya terlalu besar.
     this.r_rate *= 100;
@@ -44,12 +40,15 @@ function searchBasedWeight(card_data, r_rate, sr_rate, ssr_rate, event_rate, one
     this.ssr_rate *= 100;
     this.event_rate *= 100;
 
+    // Mencari rentang rate
+    let weight = r_rate + sr_rate + ssr_rate + event_rate;
+    
     // Nah kita tentukan range tiap rate.
     let R = r_rate;
     let SR = R + sr_rate;
     let SSR = SR + ssr_rate;
     let EVENT = SSR + event_rate;
-
+    
     // Beberapa fungsi yang mungkin akan berguna.
     // Pintasan untuk mengacak angka dari panjang resources.
     const reloadNumber = (length) => Math.floor(Math.random() * length);
@@ -57,6 +56,9 @@ function searchBasedWeight(card_data, r_rate, sr_rate, ssr_rate, event_rate, one
     const whenEvent = () => card_data.filter(o => o.on_event === true);
     // Pintasan untuk mencari kartu sesuai tingkat Rarenya.
     const whenRarity = (symbol_rarity) => card_data.filter(o => o.rarity === symbol_rarity);
+    
+    // Persiapan untuk menampung data-data.
+    let getItem = [];
 
     /**
      * Mengacak kartu berdasarkan logika weighted tadi. Untuk variabelnya,
@@ -135,6 +137,8 @@ for (let i = 0; i < res.length; i++) {
     // Cara menggunakannya cukup simpel kok.
     // <expression> ? <when_true> : <when_false>;
     let resOnEvent = res[i].on_event === true ? "EVENT" : "NORMAL";
+    // Cetak angka sebagai bukti kita roll sebanyak 10x
+    let indexing = (i + 1).toString().length === 1 ? `0${i + 1}` : (i + 1).toString();
     // Cetak deh
-    console.log(`You\'ve got ${resName} (${resRarity}) [${resOnEvent} CARD] [${resCostume} Costume] ID:${resID}`);
+    console.log(`${indexing}. You\'ve got ${resName} (${resRarity}) [${resOnEvent} CARD] [${resCostume} Costume] ID:${resID}`);
 }
